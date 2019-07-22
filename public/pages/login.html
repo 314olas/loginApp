@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div id="logger" class="form-action show">
+    <h1>Login on webapp</h1>
+    <p>
+        Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+        Maecenas sed diam eget risus varius bladit sit amet non
+    </p>
+    <form id="login">
+        <ul>
+            <li>
+                <input type="email" placeholder="Enter your email" name="email" required/>
+            </li>
+            <li>
+                <input type="password" placeholder="Password" name="password" required/>
+            </li>
+            <li class="helper-links">
+                <a href="/resetPassword/step1">forgot password?</a>
+                <a href="/registration">create account?</a>
+            </li>
+            <li>
+                <button type="submit" class="button">Login</button>
+            </li>
+        </ul>
+        <p id="msg"></p>
+    </form>
+</div>
+<script src="../js/index.js"></script>
+</body>
+</html>
+

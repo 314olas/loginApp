@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>SSA Group</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="flat-form">
+    <ul class="tabs">
+        <li>
+            <a href="#logger" class="active">Login</a>
+        </li>
+        <li>
+            <a href="#register">Register</a>
+        </li>
+        <li>
+            <a href="#reset">Reset Password</a>
+        </li>
+    </ul>
+
+
+    <div id="reset" class="form-action hide">
+        <h1>Reset Password</h1>
+        <p>
+            To reset your password enter your email and your birthday
+            and we'll send you a link to reset your password.
+        </p>
+        <form id="resetPass">
+            <ul>
+                <li>
+                    <input type="text" placeholder="Email" required/>
+                </li>
+                <li>
+                    <input type="text" placeholder="Birthday" required/>
+                </li>
+                <li>
+                    <button type="submit"  class="button">reset password</button>
+                </li>
+            </ul>
+        </form>
+    </div>
+</div>
+<script src="../js/index.js"></script>
+</body>
+</html>
+
